@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1.0" name="viewport">
+    <title>Brett Chien - Frontend Web Developer, UI/UX Designer, Marketer</title><!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo:400" rel="stylesheet">
+    <link href="css/materialize.css" media="screen,projection" rel="stylesheet" type="text/css">
+    <link href="css/style.css" media="screen,projection" rel="stylesheet" type="text/css">
+    <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" rel="stylesheet"><!-- Google Tag Manager -->
+
+    <script>
+       (function(w, d, s, l, i) {
+           w[l] = w[l] || [];
+           w[l].push({
+               'gtm.start': new Date().getTime(),
+               event: 'gtm.js'
+           });
+           var f = d.getElementsByTagName(s)[0],
+               j = d.createElement(s),
+               dl = l != 'dataLayer' ? '&l=' + l : '';
+           j.async = true;
+           j.src =
+               'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+           f.parentNode.insertBefore(j, f);
+       })(window, document, 'script', 'dataLayer', 'GTM-N7QC8V8');
+    </script><!-- End Google Tag Manager -->
+</head>
+<body class="flex-container">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-N7QC8V8" style="display:none;visibility:hidden" width="0"></iframe></noscript> <!-- End Google Tag Manager (noscript) -->
+    <nav class="" role="navigation">
+        <div class="nav-wrapper container">
+            <a class="brand-logo left" href="http://brettchien.com" id="logo-container" style="font-size:1rem;font-weight:700">Brett Chien</a>
+            <ul class="right">
+                <li>
+                    <a href="mailto:hi@brettchien.com">hi@brettchien.com</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="section flex-content">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l5">
+                    <h1 id="title">Program Finder v2</h1>
+                    <hr>
+                    <div class="row sub-header">
+                        <div class="col s6">
+                            <p>CSUDH</p>
+                        </div>
+                        <div class="col s6 right-align">
+                            <p>2019</p>
+                        </div>
+                    </div>
+                    <p id="description">Intuitive sorting of degree programs for students all on a single page</p>
+                </div>
+                <div class="col s12 l1"></div>
+                <div class="col s12 l6 valign-wrapper valign-content" style="min-height: 401px;">
+                    <div class="card" style="box-shadow: none">
+                        <div class="card-image"><img src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1553576817/brettchien.com/program-finder-v2-mockup.png"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container content">
+            <div class="row">
+                <div class="col">
+                    <h2>The Challenge</h2>
+                    <p>V1 allowed students to see and filter programs based on different categories like degree, area of study, college, etc. I tried to include as many programs as I can into a 4-column grid system color-coded to help students identify programs that belong to a specific category filter. This proved to be overwhelming for our student pilot groups. So, back to the drawing board…</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    <h2>Ideation</h2>
+                    <p>During my design process, I often times like to approach a problem using the <strong style="display: inline;font-weight:700">CFTBS approach</strong>. The idea is to complete the sentence Create ___ for ___ to ___ by ___ so ___. This helps me to focus on problems I want to solve and how to approach it. After brainstorm a few keywords with the team, here's what we ended up with for this project: <em><strong style="display: inline;font-weight:700">CREATE</strong> a simple yet intuitive way <strong style="display: inline;font-weight:700">FOR</strong> students <strong style="display: inline;font-weight:700">TO</strong> find information on degree programs <strong style="display: inline;font-weight:700">BY</strong> creating a sortable list of programs <strong style="display: inline;font-weight:700">SO</strong> that they can find all relevant information on a single page.</em></p>
+                    <div class="col s12">
+                        <div class="card" style="box-shadow: none">
+                            <div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1553576817/brettchien.com/CFTBS.jpg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    <h2>User Flow - minimizing goal steps</h2>
+                    <p>V1 was great in allowing students to see a list of all programs but viewing program description required an additional step. The only way to navigate to the description is by clicking on “explore options” which will display a modal with more information. We want to avoid this because every step in a goal funnel is a potential bounce risk</p>
+                </div>
+                <div class="col s12">
+                    <div class="card" style="box-shadow: none">
+                        <div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1553577481/brettchien.com/v1-flow-1200px-3.jpg"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="display:flex;align-items: center;">
+                <div class="col s2">
+                    <hr>
+                </div>
+                <div class="col s8">
+                    <em style="font-size:2rem;">"The information that I’m seeking is not available to me immediately, I don’t want to bother with clicking more links"</em>
+                </div>
+                <div class="col s2">
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    <h2>Paper Wireframes</h2>
+                    <p>Ultimately, what we are trying to accomplish here is to provide as much program detail as we can and make the list sortable and filterable. In order to accomplish this, I started by listing out all the important information that a student would be looking for. With the help of the team, we picked out the most important information that are unique to each program.</p>
+                    <div class="col s6">
+                        <div class="card" style="box-shadow: none">
+                            <div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1553576817/brettchien.com/paper-desktop.jpg"></div>
+                        </div>
+                    </div>
+                    <div class="col s6">
+                        <div class="card" style="box-shadow: none">
+                            <div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1553576817/brettchien.com/paper-mobile.jpg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    <h2>Mockups</h2>
+                    <p>I used a libary called <a href="https://isotope.metafizzy.co/">Isotope</a> which was originally created for galleries and imagery for its sorting and filtering functions. The CSS transitions are also smooth and fast. Students are now able to view more info on the same page and are more likely to perform an action (clicking on CTA).</p>
+                    <div class="col s12 m5 center">
+                        <div class="card" style="box-shadow: none">
+                            <div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1553577820/brettchien.com/mock-overwhelm-2.jpg"></div>
+                        </div><i class="fas fa-times fa-3x" style="color:red;margin-top:2rem"></i>
+                        <h3 style="margin:2rem">Overwhelming</h3>
+                    </div>
+                    <div class="col m2 show-on-medium-and-up"></div>
+                    <div class="col s12 m5 center">
+                        <div class="card" style="box-shadow: none">
+                            <div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1553577820/brettchien.com/mock-dropdown-3.jpg"></div>
+                        </div><i class="fas fa-check fa-3x" style="color:green;margin-top:2rem"></i>
+                        <h3 style="margin:2rem">Dropdowns</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer">
+        <div class="footer-copyright">
+            <div class="container center" style="padding-bottom: 4rem;">
+                <i class="far fa-copyright fa-xs"></i> 2018 Brett Chien
+            </div>
+        </div>
+    </footer><!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js">
+    </script> 
+    <script src="js/materialize.js">
+    </script> 
+    <script src="js/init.js">
+    </script> 
+    <script type="text/javascript">
+           $(document).ready(function() {
+               $('.carousel').carousel({
+                   indicators:true
+               });
+               $('.materialboxed').materialbox();
+               $('.scrollspy').scrollSpy();
+               $('.pushpin').pushpin();
+           });
+    </script>
+</body>
+</html>
