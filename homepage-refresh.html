@@ -1,406 +1,429 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1.0" name="viewport">
-    <title>Brett Chien - Frontend Web Developer, UI/UX Designer, Marketer</title>
-    <!-- CSS  -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Arvo:400" rel="stylesheet">
-    <link href="css/materialize.css" media="screen,projection" rel="stylesheet" type="text/css">
-    <link href="css/style.css" media="screen,projection" rel="stylesheet" type="text/css">
-    <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" rel="stylesheet">
-    <!-- Google Tag Manager -->
-    <script>
-    (function(w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start': new Date().getTime(),
-            event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s),
-            dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-N7QC8V8');
-    </script><!-- End Google Tag Manager -->
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1.0" name="viewport">
+	<title>Brett Chien - Frontend Web Developer, UI/UX Designer, Marketer</title>
+	<!-- CSS  -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Arvo:400" rel="stylesheet">
+	<link href="css/materialize.css" media="screen,projection" rel="stylesheet" type="text/css">
+	<link href="css/style.css" media="screen,projection" rel="stylesheet" type="text/css">
+	<link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" rel="stylesheet">
+	<!-- Google Tag Manager -->
+	<script>
+	   (function(w, d, s, l, i) {
+	       w[l] = w[l] || [];
+	       w[l].push({
+	           'gtm.start': new Date().getTime(),
+	           event: 'gtm.js'
+	       });
+	       var f = d.getElementsByTagName(s)[0],
+	           j = d.createElement(s),
+	           dl = l != 'dataLayer' ? '&l=' + l : '';
+	       j.async = true;
+	       j.src =
+	           'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+	       f.parentNode.insertBefore(j, f);
+	   })(window, document, 'script', 'dataLayer', 'GTM-N7QC8V8');
+	</script>
+	<!-- End Google Tag Manager -->
 </head>
-
 <body class="flex-container">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-N7QC8V8" style="display:none;visibility:hidden" width="0"></iframe></noscript> 
-    <!-- End Google Tag Manager (noscript) -->
-    <nav class="" role="navigation">
-        <div class="nav-wrapper container">
-            <a class="brand-logo left" href="http://brettchien.com" id="logo-container" style="font-size:1rem;font-weight:700">Brett Chien</a>
-            <ul class="right">
-                <li>
-                    <a href="mailto:hi@brettchien.com">hi@brettchien.com</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <div class="section flex-content">
-        <div class="container hero">
-            <div class="row" style="margin-bottom: 0;">
-                <div class="col s12 l5">
-                    <h1 id="title">CSUDH Website Refresh</h1>
-                    <hr>
-                    <div class="row sub-header">
-                        <div class="col s6">
-                            <p>CSUDH</p>
-                        </div>
-                        <div class="col s6 right-align">
-                            <p>2017 - Current</p>
-                        </div>
-                    </div>
-                    <p id="description">Improving user experience through personas and user flows, and validating with analytics</p>
-                </div>
-                <div class="col s12 l1"></div>
-                <div class="col s12 l6 valign-wrapper valign-content" style="min-height: 401px;"><img src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948814/brettchien.com/csudh-refresh.jpg" class="cld-responsive" style="width:100%"></div>
-            </div>
-        </div>
-        <div class="container content">
-            <div class="row">
-                <div class="col s12 l9">
-                    <div id="challenge" class="section scrollspy">
-                        <div class="row" style="margin-top:0">
-                            <div class="col">
-                                <h2>The Challenge/Problem</h2>
-                                <p>The university launched a major campaign as part of the campus-wide rebranding initiative to refresh decade old templates in their heavily customized CMS. The goal was to modernize the aesthetic, apply responsive design, and improve overall user experience.</p>
-                                <p>The tricky part was that we were limited by the functionalities of the proprietary CMS software. On top of that, there were a total of 7000+ pages that needed to be migrated to the new templates. A decision was made to keep the current navigation structure and prioritize responsive designs and migration of all current pages. We plan to convene at a later phase to rework our sitemap and navigation. This was a big project involving third party vendors and cross-departmental collaboration at all levels.</p>
-                                <div class="col s12">
-                                    <div class="card">
-                                        <div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552954657/brettchien.com/old-csudh-comparison.jpg"></div>
-                                    </div>
-                                </div>
-                                <p>I was able to identify the top pages that staff, faculty and students have been viewing and using after gathering feedback from each group. I then validated my findings with data from Google Analytics - it was obvious that the website was not being utilized properly. Pages that are expected to have high percentage of pageviews such as academics, future students, or financial aid have been underperforming. The users are simply not finding the information they need, hence the high bounce rates.</p>
-                                <div class="col s12 xl4 offset-xl4 m8 offset-m2">
-                                    <div class="card">
-                                        <div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948817/brettchien.com/ga-2.jpg"></div>
-                                    </div>
-                                </div>
-                                <div class="col s12 xl4 offset-xl4 m8 offset-m2">
-                                    <div class="card">
-                                        <div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948817/brettchien.com/ga-1.jpg"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="workflow" class="section scrollspy">
-                        <div class="row" style="margin-bottom: 0;">
-                            <div class="col s12">
-                                <h1>Workflow</h1>
-                                <p>My typical design workflow consists of 3 phases - <b>discovery</b>, <b>prototyping</b>, and <b>validation</b>. Examples of tools and methods that I use in each phase:</p>
-                            </div>
-                            <div class="col s12">
-                                <div class="row  center-align" style="margin-bottom: 0">
-                                    <div class="col l4 m12" style="padding:2rem">
-                                        <i class="far fa-lightbulb fa-3x" style="color:blue"></i>
-                                        <h2>Discovery</h2>
-                                        <p>User research, interviews, surveys, SWOT analysis</p>
-                                    </div>
-                                    <div class="col l4 m12" style="padding:2rem">
-                                        <i class="fas fa-draw-polygon fa-3x" style="color:blue"></i>
-                                        <h2>Prototyping</h2>
-                                        <p>Wireframes, user journeys, user stories, implement card sorting</p>
-                                    </div>
-                                    <div class="col l4 m12" style="padding:2rem">
-                                        <i class="fas fa-tasks fa-3x" style="color:blue"></i>
-                                        <h2>Validation</h2>
-                                        <p>Design and website analytics, landing pages, A/B and usability tests</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="discovery" class="section scrollspy">
-                        <div class="row" style="margin-top:0">
-                            <div class="col s12">
-                                <h2>1. Discovery</h2>
-                                <p style="font-weight: 400;font-size: 1.2rem;">I needed to define and analyze the user group in order to understand how they are using and interacting with the website. There are a couple of ways to approach this but for our project, surveys and interviews are the best methods to help us understand our users better.</p>
-                            </div>
-                            <div class="col s12">
-                                <p>Surveys can provide a big picture of the issues users are experiencing while interviews can uncover emotions that are not shown in surveys. I decided to conduct my research phase over the summer break so that faculty/staff and students have more time to focus on my research since no classes are in session.</p>
-                                <p>Once I have enough information on CSUDH's primary user group, I will move on to the secondary group consisting of athletics, extracurricular, community supporters, etc. I sent out the following Google Form survey to a list of selected users:</p>
-                                <iframe frameborder="0" height="520" marginheight="0" marginwidth="0" src="https://docs.google.com/forms/d/e/1FAIpQLSdPktfRYXtkgifNuAcLA8nIelZFUCBJAtDPkbRm44AFaHjfvw/viewform?embedded=true" width="100%">Loading...</iframe>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="staff" class="section scrollspy">
-                        <div class="row">
-                            <div class="col s12">
-                                <h3>(Analyzing Responses) Phase 1 - Faculty/Staff</h3>
-                                <p style="font-weight: 400;font-size: 1.2rem;">The sample size for the faculty/staff user group was rather small, only about 30 users were able to complete the survey and interview. However, most of the users had a single feedback in common.</p>
-                            </div>
-                            <div class="col s12">
-                                <strong>Ease of use</strong>
-                                <p>During my research, I discovered that the faculty/staff were able to find most of the information they were looking for on the current templates. This group uses the directory, library and other quicklinks exclusively on a daily basis. But, one of the main concerns shared with every other user on the site is the ability to find program information. It is the most important aspect for any higher ed institution website, yet it is the hardest piece of information to obtain on ours.</p><strong>Priorities</strong>
-                                <p>The majority of faculty/staff browse the website daily or 2 - 3 days per week. Creating a responsive experience, improving the sitemap, and reducing page length are the most important goals of the redesign for this user group. Search bar, academic programs, directory should also be shown in prominent areas.</p>
-                                <div class="col s12 l8 offset-l2">
-                                    <div class="card">
-                                        <div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948829/brettchien.com/staff-how-often.jpg"></div>
-                                    </div>
-                                </div>
-                                <div class="col s12 l8 offset-l2">
-                                    <div class="card">
-                                        <div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948830/brettchien.com/staff-what-info.jpg"></div>
-                                    </div>
-                                </div>
-                                <div class="col s12 l8 offset-l2">
-                                    <div class="card">
-                                        <div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948830/brettchien.com/staff-challenge.jpg"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="student" class="section scrollspy">
-                        <div class="row">
-                            <div class="col s12">
-                                <h3>(Analyzing Responses) Phase 2 - Students</h3>
-                                <p style="font-weight: 400;font-size: 1.2rem;">I sent out the surveys to a pool of users who had recently requested for more information via online forms, the rest about 10% were volunteers. The response rates were a lot lower than the faculty/staff user group at about 28%, most likely due to students being less involved with school during the summer break.</p>
-                            </div>
-                            <div class="col s12">
-                                <strong>Ease of use</strong>
-                                <p>As expected, finding program information was the main pain point for our largest user group. They did not like the multiple redirects to get to the program catalog, which is using a slightly different looking template. Degree requirements were hard to locate. They feel that the homepage did a poor job of explaining what CSUDH is about and why they should choose the university for their education. However, the students were able to find most of the information they need by using the search feature and the quicklinks.</p><strong>Priorities</strong>
-                                <p>Current students don't browse the website too often, most check for news and events and occasionally for program information. Based on the responses from the survey, we should focus on making program information more assessible and create responsive designs for over half (58%) of total traffic on mobile devices.</p>
-                                <div class="col s12 l8 offset-l2">
-                                    <div class="card">
-                                        <div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948830/brettchien.com/student-how-often.jpg"></div>
-                                    </div>
-                                </div>
-                                <div class="col s12 l8 offset-l2">
-                                    <div class="card">
-                                        <div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948830/brettchien.com/student-what-info.jpg"></div>
-                                    </div>
-                                </div>
-                                <div class="col s12 l8 offset-l2">
-                                    <div class="card">
-                                        <div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948830/brettchien.com/student-how-easy.jpg"></div>
-                                    </div>
-                                </div>
-                                <div class="col s12 l8 offset-l2">
-                                    <div class="card">
-                                        <div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948830/brettchien.com/student-what-features.jpg"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="prototype" class="section scrollspy">
-                        <div class="row">
-                            <div class="col s12">
-                                <h2>2. Prototyping</h2>
-                                <h3>User Story/Persona</h3><em>Maintaining Empathy</em>
-                                <p>Before beginning the design process, it was important for me to focus on representative users. I did not want to fall into the trap of designing for users that I had imagined for myself, which would result in misinformed design choices. Thus, I created two personas based on my user research that represented the target user group’s motivation, needs and behaviors.</p>
-                                <p>In addition, I utilized something I learned while minoring in psychology in college - identifying personality traits via Myers–Briggs Type Indicator (MBTI) to understand why users react the way they do. My purpose was not to achieve a deep understanding of personality, but to find elements that would allow me to outline some personality traits for a quick user modeling.</p>
-                            </div>
-                            <div class="col s12 l6 section scrollspy" id="persona">
-                                <div class="card">
-                                    <div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948817/brettchien.com/csudh-persona-1.jpg"></div>
-                                </div>
-                            </div>
-                            <div class="col s12 l6">
-                                <div class="card">
-                                    <div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948810/brettchien.com/csudh-persona-2.jpg"></div>
-                                </div>
-                            </div>
-                        </div>
-             
-                    </div>
-      
-                    <div id="journey" class="section scrollspy">
-                        <div class="row">
-                            <div class="col s12">
-                                <h3>User Journey Map</h3>
-                                <p>Sometimes user personas are not enough to tell the whole story from an individual's perspective. Occasionally, a more narrative, text-based approach is needed to describe nuances and details associated with an user experience. A journey map can help us uncover emotions of an user at different stages of a particular task. It can give us insights into what are they thinking, feeling, seeing, hearing, and doing. I created a journey map of Jane to uncover some emotions as she navigates a path.</p>
-                            </div>
-                            <div class="col s12 l8 offset-l2">
-                                <div class="card">
-                                    <div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948820/brettchien.com/journey.jpg"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="design" class="section scrollspy">
-                        <div class="row">
-                            <div class="col s12">
-                                <h3>Design</h3>
-                                <p>At this point, I had most of the elements I needed to create some wireframes on InVision. I used previous mockups provided to me by our web designer to come up with a prototype that shows a sample user journey of a student searching for program information.</p>
-                                <div class="col s8 offset-s2 l6 offset-l3" style="margin-bottom: 4rem;">
-                                    <video autoplay="" controls="" loop="" src="img/test-2.mp4" style="width:100%;display: block"></video>
-                                </div>
-                                <div class="col s8 offset-s2 l6 offset-l3">
-                                    <video autoplay="" controls="" loop="" src="img/csudh-refresh-home.mp4" style="width:100%;display: block"></video>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="validation" class="section scrollspy">
-                        <div class="row">
-                            <div class="col s12">
-                                <h2>3. Validation</h2>
-                                <p>We accomplished our initial goals of increasing pageviews, average time on page, and entrances and decreased bounce rate and exit %. However, numbers can be tricky sometimes and I really need to be careful when analyzing metrics with the context in mind. For example, we increased the average time users are spending on a page but it doesn't necessarily mean this is a good user experience. It could mean that users are having a harder time finding information they need so they are spending more time on the page. One approach I would take to better understand the numbers would be to track the number of event interactions on the page since it would mean users are interacting with elements on the page. Last but not least, we also saw increase in goal completions across most of our targeted pages.</p>
-                            </div>
-                            <div class="col s12 l6">
-                                <div class="card">
-                                    <div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948829/brettchien.com/ga-3.jpg"></div>
-                                </div>
-                            </div>
-                            <div class="col s12 l6">
-                                <div class="card">
-                                    <div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948830/brettchien.com/ga-4.jpg"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="story" class="section scrollspy">
-                        <div class="row">
-                            <div class="col s12">
-                                <h3>Telling a story</h3>
-                                <p>The team reviewed the prototypes, I printed out all the pages and went over them every day for a week. I felt something was missing, but I just can't seem to figure out what it was. I decided to go back to my interviews and surveys hoping to find the answer there. At the first glance, I thought our designs tackled most of the pain points from a user's perspective. Then I realized that we failed to tell the CSUDH story - what the school is about and why should a student apply.</p>
-                                <p>The homepage had an awkward flow when transitioning from the hero slider to the next section - New and Events. So I added points of distinction of CSUDH's unique demographics and alumnus to engage and generate more interest among prospective and current students.</p>
-                            </div>
-                            <div class="col s12 l6 offset-l3">
-                                <div class="card">
-                                    <div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948814/brettchien.com/csudh-refresh-v2.jpg"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="accordion" class="section scrollspy">
-                        <div class="row">
-                            <div class="col s12">
-                                <h3>Accordion Menu</h3>
-                                <p>We wanted to improve the division landing pages to include as much information as possible while keeping the pages short. I realized some menu items were links to pages with only a few lines of text. Moving the content on these pages to the main landing page into accordion menus would kill 2 birds with 1 stone - reduce the number of menu items and provide more information on the landing page.</p>
-                            </div>
-                            <div class="col s12 l6 offset-l3">
-                                <div class="card">
-                                    <div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948811/brettchien.com/csudh-refresh-accordion.jpg"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="program" class="section scrollspy">
-                        <div class="row">
-                            <div class="col s12">
-                                <h3>Program finder</h3>
-                                <p>While I was analyzing Jane's journey map, I realized that it took a prospective student 5 page visits before being able to obtain the information they needed. 2 out of the 5 pages were landing pages which served no real purpose as they were only directing users to the right menu. I wanted to reduce the number of page visits and I figured that the Undergraduate/Graduate Majors & Programs page would be the ideal place to provide as much information as possible.</p>
-                                <p>And so I came up with an idea to present a top-down overview of all the programs offered at CSUDH. I accomplished this by designing a tabbed filter using only jQuery and CSS. Users can browse by Degree or Area of Study (by Colleges coming soon) and all relevant information while staying on the same page.</p>
-                                <strong style="display:inline;">Version 2</strong> <em>- We got feedback from a couple of our student pilot groups and many felt that the program finder was too overwhelming. I worked on a prototype for v2 <a href="/program-finder-v2.html">here</a></em>.
-                            </div>
-                            <div class="col s12 l8 offset-l2">
-                                <video autoplay="" controls="" loop="" src="img/program-finder.mp4" style="width:100%;margin-top: 1rem;"></video>
-                            </div>
-                        </div>
-                    </div>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-N7QC8V8" style="display:none;visibility:hidden" width="0"></iframe></noscript> 
+	<!-- End Google Tag Manager (noscript) -->
+	<nav class="" role="navigation">
+		<div class="nav-wrapper container">
+			<a class="brand-logo left" href="http://brettchien.com" id="logo-container" style="font-size:1rem;font-weight:700">Brett Chien</a>
+			<ul class="right">
+				<li>
+					<a href="mailto:hi@brettchien.com">hi@brettchien.com</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="section flex-content">
+		<div class="container hero">
+			<div class="row" style="margin-bottom: 0;">
+				<div class="col s12 l5">
+					<h1 id="title">CSUDH Website Refresh</h1>
+					<hr>
+					<div class="row sub-header">
+						<div class="col s6">
+							<p>CSUDH</p>
+						</div>
+						<div class="col s6 right-align">
+							<p>2017 - Current</p>
+						</div>
+					</div>
+					<p id="description">Improving user experience through personas and user flows, and validating with analytics</p>
+				</div>
+				<div class="col s12 l1"></div>
+				<div class="col s12 l6 valign-wrapper valign-content" style="min-height: 401px;"><img class="cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948814/brettchien.com/csudh-refresh.jpg" style="width:100%"></div>
+			</div>
+		</div>
+		<div class="container content">
+			<div class="row">
+				<div class="col s12 l9">
+					<div class="section scrollspy" id="challenge">
+						<div class="row" style="margin-top:0">
+							<div class="col">
+								<h2>The Challenge/Problem</h2>
+								<p>The university launched a major campaign as part of the campus-wide rebranding initiative to refresh decade old templates in their heavily customized CMS. The goal was to modernize the aesthetic, apply responsive design, and improve overall user experience.</p>
+								<p>The tricky part was that we were limited by the functionalities of the proprietary CMS software. On top of that, there were a total of 7000+ pages that needed to be migrated to the new templates. A decision was made to keep the current navigation structure and prioritize responsive designs and migration of all current pages. We plan to convene at a later phase to rework our sitemap and navigation. This was a big project involving third party vendors and cross-departmental collaboration at all levels.</p>
+								<div class="col s12">
+									<div class="card">
+										<div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552954657/brettchien.com/old-csudh-comparison.jpg"></div>
+									</div>
+								</div>
+								<p>I was able to identify the top pages that staff, faculty and students have been viewing and using after gathering feedback from each group. I then validated my findings with data from Google Analytics - it was obvious that the website was not being utilized properly. Pages that are expected to have high percentage of pageviews such as academics, future students, or financial aid have been underperforming. The users are simply not finding the information they need, hence the high bounce rates.</p>
+								<div class="col s12 xl4 offset-xl4 m8 offset-m2">
+									<div class="card">
+										<div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948817/brettchien.com/ga-2.jpg"></div>
+									</div>
+								</div>
+								<div class="col s12 xl4 offset-xl4 m8 offset-m2">
+									<div class="card">
+										<div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948817/brettchien.com/ga-1.jpg"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="section scrollspy" id="workflow">
+						<div class="row" style="margin-bottom: 0;">
+							<div class="col s12">
+								<h1>Workflow</h1>
+								<p>My typical design workflow consists of 3 phases - <b>discovery</b>, <b>prototyping</b>, and <b>validation</b>. Examples of tools and methods that I use in each phase:</p>
+							</div>
+							<div class="col s12">
+								<div class="row center-align" style="margin-bottom: 0">
+									<div class="col l4 m12" style="padding:2rem">
+										<i class="far fa-lightbulb fa-3x" style="color:blue"></i>
+										<h2>Discovery</h2>
+										<p>User research, interviews, surveys, SWOT analysis</p>
+									</div>
+									<div class="col l4 m12" style="padding:2rem">
+										<i class="fas fa-draw-polygon fa-3x" style="color:blue"></i>
+										<h2>Prototyping</h2>
+										<p>Wireframes, user journeys, user stories, implement card sorting</p>
+									</div>
+									<div class="col l4 m12" style="padding:2rem">
+										<i class="fas fa-tasks fa-3x" style="color:blue"></i>
+										<h2>Validation</h2>
+										<p>Design and website analytics, landing pages, A/B and usability tests</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="section scrollspy" id="discovery">
+						<div class="row" style="margin-top:0">
+							<div class="col s12">
+								<h2>1. Discovery</h2>
+								<p style="font-weight: 400;font-size: 1.2rem;">I needed to define and analyze the user group in order to understand how they are using and interacting with the website. There are a couple of ways to approach this but for our project, surveys and interviews are the best methods to help us understand our users better.</p>
+							</div>
+							<div class="col s12">
+								<p>Surveys can provide a big picture of the issues users are experiencing while interviews can uncover emotions that are not shown in surveys. I decided to conduct my research phase over the summer break so that faculty/staff and students have more time to focus on my research since no classes are in session.</p>
+								<p>Once I have enough information on CSUDH's primary user group, I will move on to the secondary group consisting of athletics, extracurricular, community supporters, etc. I sent out the following Google Form survey to a list of selected users:</p><iframe frameborder="0" height="520" marginheight="0" marginwidth="0" src="https://docs.google.com/forms/d/e/1FAIpQLSdPktfRYXtkgifNuAcLA8nIelZFUCBJAtDPkbRm44AFaHjfvw/viewform?embedded=true" width="100%">Loading...</iframe>
+							</div>
+						</div>
+					</div>
+					<div class="section scrollspy" id="staff">
+						<div class="row">
+							<div class="col s12">
+								<h3>(Analyzing Responses) Phase 1 - Faculty/Staff</h3>
+								<p style="font-weight: 400;font-size: 1.2rem;">The sample size for the faculty/staff user group was rather small, only about 30 users were able to complete the survey and interview. However, most of the users had a single feedback in common.</p>
+							</div>
+							<div class="col s12">
+								<strong>Ease of use</strong>
+								<p>During my research, I discovered that the faculty/staff were able to find most of the information they were looking for on the current templates. This group uses the directory, library and other quicklinks exclusively on a daily basis. But, one of the main concerns shared with every other user on the site is the ability to find program information. It is the most important aspect for any higher ed institution website, yet it is the hardest piece of information to obtain on ours.</p><strong>Priorities</strong>
+								<p>The majority of faculty/staff browse the website daily or 2 - 3 days per week. Creating a responsive experience, improving the sitemap, and reducing page length are the most important goals of the redesign for this user group. Search bar, academic programs, directory should also be shown in prominent areas.</p>
+								<div class="col s12 l8 offset-l2">
+									<div class="card">
+										<div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948829/brettchien.com/staff-how-often.jpg"></div>
+									</div>
+								</div>
+								<div class="col s12 l8 offset-l2">
+									<div class="card">
+										<div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948830/brettchien.com/staff-what-info.jpg"></div>
+									</div>
+								</div>
+								<div class="col s12 l8 offset-l2">
+									<div class="card">
+										<div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948830/brettchien.com/staff-challenge.jpg"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="section scrollspy" id="student">
+						<div class="row">
+							<div class="col s12">
+								<h3>(Analyzing Responses) Phase 2 - Students</h3>
+								<p style="font-weight: 400;font-size: 1.2rem;">I sent out the surveys to a pool of users who had recently requested for more information via online forms, the rest about 10% were volunteers. The response rates were a lot lower than the faculty/staff user group at about 28%, most likely due to students being less involved with school during the summer break.</p>
+							</div>
+							<div class="col s12">
+								<strong>Ease of use</strong>
+								<p>As expected, finding program information was the main pain point for our largest user group. They did not like the multiple redirects to get to the program catalog, which is using a slightly different looking template. Degree requirements were hard to locate. They feel that the homepage did a poor job of explaining what CSUDH is about and why they should choose the university for their education. However, the students were able to find most of the information they need by using the search feature and the quicklinks.</p><strong>Priorities</strong>
+								<p>Current students don't browse the website too often, most check for news and events and occasionally for program information. Based on the responses from the survey, we should focus on making program information more assessible and create responsive designs for over half (58%) of total traffic on mobile devices.</p>
+								<div class="col s12 l8 offset-l2">
+									<div class="card">
+										<div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948830/brettchien.com/student-how-often.jpg"></div>
+									</div>
+								</div>
+								<div class="col s12 l8 offset-l2">
+									<div class="card">
+										<div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948830/brettchien.com/student-what-info.jpg"></div>
+									</div>
+								</div>
+								<div class="col s12 l8 offset-l2">
+									<div class="card">
+										<div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948830/brettchien.com/student-how-easy.jpg"></div>
+									</div>
+								</div>
+								<div class="col s12 l8 offset-l2">
+									<div class="card">
+										<div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948830/brettchien.com/student-what-features.jpg"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="section scrollspy" id="prototype">
+						<div class="row">
+							<div class="col s12">
+								<h2>2. Prototyping</h2>
+								<h3>User Story/Persona</h3><em>Maintaining Empathy</em>
+								<p>Before beginning the design process, it was important for me to focus on representative users. I did not want to fall into the trap of designing for users that I had imagined for myself, which would result in misinformed design choices. Thus, I created two personas based on my user research that represented the target user group’s motivation, needs and behaviors.</p>
+								<p>In addition, I utilized something I learned while minoring in psychology in college - identifying personality traits via Myers–Briggs Type Indicator (MBTI) to understand why users react the way they do. My purpose was not to achieve a deep understanding of personality, but to find elements that would allow me to outline some personality traits for a quick user modeling.</p>
+							</div>
+							<div class="col s12 l6 section scrollspy" id="persona">
+								<div class="card">
+									<div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948817/brettchien.com/csudh-persona-1.jpg"></div>
+								</div>
+							</div>
+							<div class="col s12 l6">
+								<div class="card">
+									<div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948810/brettchien.com/csudh-persona-2.jpg"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="section scrollspy" id="journey">
+						<div class="row">
+							<div class="col s12">
+								<h3>User Journey Map</h3>
+								<p>Sometimes user personas are not enough to tell the whole story from an individual's perspective. Occasionally, a more narrative, text-based approach is needed to describe nuances and details associated with an user experience. A journey map can help us uncover emotions of an user at different stages of a particular task. It can give us insights into what are they thinking, feeling, seeing, hearing, and doing. I created a journey map of Jane to uncover some emotions as she navigates a path.</p>
+							</div>
+							<div class="col s12 l8 offset-l2">
+								<div class="card">
+									<div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948820/brettchien.com/journey.jpg"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="section scrollspy" id="design">
+						<div class="row">
+							<div class="col s12">
+								<h3>Design</h3>
+								<p>At this point, I had most of the elements I needed to create some wireframes on InVision. I used previous mockups provided to me by our web designer to come up with a prototype that shows a sample user journey of a student searching for program information.</p>
+								<div class="col s12" style="margin-bottom: 4rem;">
+									<div class="card">
+										<div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1559335574/brettchien.com/resfresh-wireframes.jpg"></div>
+									</div>
+								</div>
+								<div class="col s8 offset-s2 l6 offset-l3" style="margin-bottom: 4rem;">
+									<video autoplay="" controls="" loop="" src="img/test-2.mp4" style="width:100%;display: block"></video>
+								</div>
+								<div class="col s8 offset-s2 l6 offset-l3">
+									<video autoplay="" controls="" loop="" src="img/csudh-refresh-home.mp4" style="width:100%;display: block"></video>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="section scrollspy" id="validation">
+						<div class="row">
+							<div class="col s12">
+								<h2>3. Validation</h2>
+								<p>We accomplished our initial goals of increasing pageviews, average time on page, and entrances and decreased bounce rate and exit %. However, numbers can be tricky sometimes and I really need to be careful when analyzing metrics with the context in mind. For example, we increased the average time users are spending on a page but it doesn't necessarily mean this is a good user experience. It could mean that users are having a harder time finding information they need so they are spending more time on the page. One approach I would take to better understand the numbers would be to track the number of event interactions on the page since it would mean users are interacting with elements on the page. Last but not least, we also saw increase in goal completions across most of our targeted pages.</p>
+							</div>
+							<div class="col s12 l6">
+								<div class="card">
+									<div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948829/brettchien.com/ga-3.jpg"></div>
+								</div>
+							</div>
+							<div class="col s12 l6">
+								<div class="card">
+									<div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948830/brettchien.com/ga-4.jpg"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="section scrollspy" id="story">
+						<div class="row">
+							<div class="col s12">
+								<h3>Telling a story</h3>
+								<p>The team reviewed the prototypes, I printed out all the pages and went over them every day for a week. I felt something was missing, but I just can't seem to figure out what it was. I decided to go back to my interviews and surveys hoping to find the answer there. At the first glance, I thought our designs tackled most of the pain points from a user's perspective. Then I realized that we failed to tell the CSUDH story - what the school is about and why should a student apply.</p>
+								<p>The homepage had an awkward flow when transitioning from the hero slider to the next section - New and Events. So I added points of distinction of CSUDH's unique demographics and alumnus to engage and generate more interest among prospective and current students.</p>
+							</div>
+							<div class="col s12 l6 offset-l3">
+								<div class="card">
+									<div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948814/brettchien.com/csudh-refresh-v2.jpg"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="section scrollspy" id="accordion">
+						<div class="row">
+							<div class="col s12">
+								<h3>Accordion Menu</h3>
+								<p>We wanted to improve the division landing pages to include as much information as possible while keeping the pages short. I realized some menu items were links to pages with only a few lines of text. Moving the content on these pages to the main landing page into accordion menus would kill 2 birds with 1 stone - reduce the number of menu items and provide more information on the landing page.</p>
+							</div>
+							<div class="col s12 l6 offset-l3">
+								<div class="card">
+									<div class="card-image"><img class="materialboxed cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948811/brettchien.com/csudh-refresh-accordion.jpg"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="section scrollspy" id="program">
+						<div class="row">
+							<div class="col s12">
+								<h3>Program finder</h3>
+								<p>While I was analyzing Jane's journey map, I realized that it took a prospective student 5 page visits before being able to obtain the information they needed. 2 out of the 5 pages were landing pages which served no real purpose as they were only directing users to the right menu. I wanted to reduce the number of page visits and I figured that the Undergraduate/Graduate Majors & Programs page would be the ideal place to provide as much information as possible.</p>
+								<p>And so I came up with an idea to present a top-down overview of all the programs offered at CSUDH. I accomplished this by designing a tabbed filter using only jQuery and CSS. Users can browse by Degree or Area of Study (by Colleges coming soon) and all relevant information while staying on the same page.</p><strong style="display:inline;">Version 2</strong> <em>- We got feedback from a couple of our student pilot groups and many felt that the program finder was too overwhelming. I worked on a prototype for v2 <a href="/program-finder-v2.html">here</a></em>.
+							</div>
+							<div class="col s12 l8 offset-l2">
+								<video autoplay="" controls="" loop="" src="img/program-finder.mp4" style="width:100%;margin-top: 1rem;"></video>
+							</div>
+						</div>
+					</div>
+					<div class="section scrollspy" id="wrapping-up">
+						<div class="row" style="margin-bottom:0">
+							<div class="col s12">
+								<h1>Wrapping up</h1>
+							</div>
+							<div class="col s12">
+								<p>Working on a large scale project like this gave me a lot of insight into the art of collaboration between different groups and vendors. Every user, internal and external, will have different needs/wants and it always boils down to understanding the reasons behind them if the goal is to provide a good user experience. We wrapped up the first phase of the CSUDH web refresh initiative with 7 templates which can be easily applied to our existing 7000+ pages without breaking the current sitemap and navigation.</p>
+							</div>
+							<div class="col s12">
+								<div class="carousel" style="height: 430px; margin:3rem 0 2rem;">
+									<a class="carousel-item" href="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948812/brettchien.com/01-campus-homepage-1600px.jpg" style="height:100%" target="_blank"><img class="cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948812/brettchien.com/01-campus-homepage-1600px.jpg"></a> <a class="carousel-item" href="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948813/brettchien.com/02-division-college-1600px.jpg" style="height:100%" target="_blank"><img class="cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948813/brettchien.com/02-division-college-1600px.jpg"></a> <a class="carousel-item" href="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948811/brettchien.com/03-tertiary-1600px.jpg" style="height:100%" target="_blank"><img class="cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948811/brettchien.com/03-tertiary-1600px.jpg"></a> <a class="carousel-item" href="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948812/brettchien.com/04-blank-with-menu-1600px.jpg" style="height:100%" target="_blank"><img class="cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948812/brettchien.com/04-blank-with-menu-1600px.jpg"></a> <a class="carousel-item" href="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948813/brettchien.com/05-blank-without-menu-1600px.jpg" style="height:100%" target="_blank"><img class="cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948813/brettchien.com/05-blank-without-menu-1600px.jpg"></a> <a class="carousel-item" href="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948813/brettchien.com/06-personnel-list-1600px.jpg" style="height:100%" target="_blank"><img class="cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948813/brettchien.com/06-personnel-list-1600px.jpg"></a> <a class="carousel-item" href="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948815/brettchien.com/07-bio-full-profile-1600px.jpg" style="height:100%" target="_blank"><img class="cld-responsive" src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948815/brettchien.com/07-bio-full-profile-1600px.jpg"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col l1"></div>
+				<div class="col l2 hide-on-med-and-down">
+					<div class="toc-wrapper">
+						<ul class="section table-of-contents">
+							<li>
+								<a href="#challenge">Challenge</a>
+							</li>
+							<li>
+								<a href="#workflow">Workflow</a>
+							</li>
+							<li style="margin-left:1rem">
+								<a href="#discovery">Discovery</a>
+							</li>
+							<li style="margin-left:2rem">
+								<a href="#staff">Phase 1 - Faculty/Staff</a>
+							</li>
+							<li style="margin-left:2rem">
+								<a href="#student">Phase 2 - Students</a>
+							</li>
+							<li style="margin-left:1rem">
+								<a href="#prototype">Prototyping</a>
+							</li>
+							<li style="margin-left:2rem">
+								<a href="#persona">User Stories/Persona</a>
+							</li>
+							<li style="margin-left:2rem">
+								<a href="#journey">User Journey</a>
+							</li>
+							<li style="margin-left:2rem">
+								<a href="#design">Design</a>
+							</li>
+							<li style="margin-left:1rem">
+								<a href="#validation">Validation</a>
+							</li>
+							<li>
+								<a href="#story">Storytelling</a>
+							</li>
+							<li>
+								<a href="#accordion">Accordion Menu</a>
+							</li>
+							<li>
+								<a href="#program">Program Finder</a>
+							</li>
+							<li>
+								<a href="#wrapping-up">Wrapping up</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="page-footer">
+			<div class="footer-copyright">
+				<div class="container center" style="padding-bottom: 4rem;">
+					<i class="far fa-copyright fa-xs"></i> 2018 Brett Chien
+				</div>
+			</div>
+		</footer>
+		<!--  Scripts-->
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js">
+		</script> 
+		<script src="js/materialize.js">
+		</script> 
+		<script src="js/init.js">
+		</script> 
+		<script>
+		      setTimeout(function() {
+		          var tocWrapperHeight = 260; // Max height of ads.
+		          var tocHeight = $('.toc-wrapper .table-of-contents').length ?
+		              $('.toc-wrapper .table-of-contents').height() :
+		              0;
+		          var socialHeight = 95; // Height of unloaded social media in footer.
+		          var footerOffset = $('body > footer').first().length ?
+		              $('body > footer')
+		              .first()
+		              .offset().top :
+		              0;
+		          var bottomOffset = footerOffset - socialHeight - tocHeight - tocWrapperHeight;
 
-                    <div id="wrapping-up" class="section scrollspy">
-                        <div class="row" style="margin-bottom:0">
-                            <div class="col s12">
-                                <h1>Wrapping up</h1>
-                            </div>
-                            <div class="col s12">
-                                <p>Working on a large scale project like this gave me a lot of insight into the art of collaboration between different groups and vendors. Every user, internal and external, will have different needs/wants and it always boils down to understanding the reasons behind them if the goal is to provide a good user experience. We wrapped up the first phase of the CSUDH web refresh initiative with 7 templates which can be easily applied to our existing 7000+ pages without breaking the current sitemap and navigation.</p>
-                            </div>
-                            <div class="col s12">
-                            <div class="carousel" style="height: 430px; margin:3rem 0 2rem;">
-                                <a class="carousel-item" href="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948812/brettchien.com/01-campus-homepage-1600px.jpg" style="height:100%" target="_blank"><img src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948812/brettchien.com/01-campus-homepage-1600px.jpg" class="cld-responsive"></a> <a class="carousel-item" href="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948813/brettchien.com/02-division-college-1600px.jpg" style="height:100%" target="_blank"><img src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948813/brettchien.com/02-division-college-1600px.jpg" class="cld-responsive"></a> <a class="carousel-item" href="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948811/brettchien.com/03-tertiary-1600px.jpg" style="height:100%" target="_blank"><img src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948811/brettchien.com/03-tertiary-1600px.jpg" class="cld-responsive"></a> <a class="carousel-item" href="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948812/brettchien.com/04-blank-with-menu-1600px.jpg" style="height:100%" target="_blank"><img src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948812/brettchien.com/04-blank-with-menu-1600px.jpg" class="cld-responsive"></a> <a class="carousel-item" href="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948813/brettchien.com/05-blank-without-menu-1600px.jpg" style="height:100%" target="_blank"><img src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948813/brettchien.com/05-blank-without-menu-1600px.jpg" class="cld-responsive"></a> <a class="carousel-item" href="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948813/brettchien.com/06-personnel-list-1600px.jpg" style="height:100%" target="_blank"><img src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948813/brettchien.com/06-personnel-list-1600px.jpg" class="cld-responsive"></a> <a class="carousel-item" href="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948815/brettchien.com/07-bio-full-profile-1600px.jpg" style="height:100%" target="_blank"><img src="https://res.cloudinary.com/djccrplae/image/upload/q_auto,w_auto,c_scale,f_auto/v1552948815/brettchien.com/07-bio-full-profile-1600px.jpg" class="cld-responsive"></a>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col l1">
-                </div>
-                <div class="col l2 hide-on-med-and-down">
-                    <div class="toc-wrapper">
-                        <ul class="section table-of-contents">
-                            <li><a href="#challenge">Challenge</a></li>
-                            <li><a href="#workflow">Workflow</a></li>
-                            <li style="margin-left:1rem"><a href="#discovery">Discovery</a></li>
-                            <li style="margin-left:2rem"><a href="#staff">Phase 1 - Faculty/Staff</a></li>
-                            <li style="margin-left:2rem"><a href="#student">Phase 2 - Students</a></li>
-                            <li style="margin-left:1rem"><a href="#prototype">Prototyping</a></li>
-                            <li style="margin-left:2rem"><a href="#persona">User Stories/Persona</a></li>
-                            <li style="margin-left:2rem"><a href="#journey">User Journey</a></li>
-                            <li style="margin-left:2rem"><a href="#design">Design</a></li>
-                            <li style="margin-left:1rem"><a href="#validation">Validation</a></li>
-                            <li><a href="#story">Storytelling</a></li>
-                            <li><a href="#accordion">Accordion Menu</a></li>
-                            <li><a href="#program">Program Finder</a></li>
-                            <li><a href="#wrapping-up">Wrapping up</a></li>
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            
-
-        </div>
-        <footer class="page-footer">
-            <div class="footer-copyright">
-                <div class="container center" style="padding-bottom: 4rem;">
-                    <i class="far fa-copyright fa-xs"></i> 2018 Brett Chien
-                </div>
-            </div>
-        </footer><!--  Scripts-->
-        <script src="https://code.jquery.com/jquery-2.1.1.min.js">
-        </script>
-        <script src="js/materialize.js">
-        </script>
-        <script src="js/init.js">
-        </script>
-        <script>
-        setTimeout(function() {
-            var tocWrapperHeight = 260; // Max height of ads.
-            var tocHeight = $('.toc-wrapper .table-of-contents').length ?
-                $('.toc-wrapper .table-of-contents').height() :
-                0;
-            var socialHeight = 95; // Height of unloaded social media in footer.
-            var footerOffset = $('body > footer').first().length ?
-                $('body > footer')
-                .first()
-                .offset().top :
-                0;
-            var bottomOffset = footerOffset - socialHeight - tocHeight - tocWrapperHeight;
-
-            if ($('.hero').length) {
-                console.log('Nav pushpin', $('.hero').height());
-                $('.toc-wrapper').pushpin({
-                    top: $('.hero').height(),
-                    // bottom: bottomOffset
-                });
-            } else if ($('#index-banner').length) {
-                $('.toc-wrapper').pushpin({
-                    top: $('#index-banner').height(),
-                    // bottom: bottomOffset
-                });
-            } else {
-                $('.toc-wrapper').pushpin({
-                    top: 0,
-                    // bottom: bottomOffset
-                });
-            }
-        }, 100);
-        </script>
-        <script type="text/javascript">
-        $(document).ready(function() {
-            $('.carousel').carousel({
-                indicators:true
-            });
-            $('.materialboxed').materialbox();
-            $('.scrollspy').scrollSpy();
-            $('.pushpin').pushpin();
-        });
-        </script>
-    </div>
+		          if ($('.hero').length) {
+		              console.log('Nav pushpin', $('.hero').height());
+		              $('.toc-wrapper').pushpin({
+		                  top: $('.hero').height(),
+		                  // bottom: bottomOffset
+		              });
+		          } else if ($('#index-banner').length) {
+		              $('.toc-wrapper').pushpin({
+		                  top: $('#index-banner').height(),
+		                  // bottom: bottomOffset
+		              });
+		          } else {
+		              $('.toc-wrapper').pushpin({
+		                  top: 0,
+		                  // bottom: bottomOffset
+		              });
+		          }
+		      }, 100);
+		</script> 
+		<script type="text/javascript">
+		      $(document).ready(function() {
+		          $('.carousel').carousel({
+		              indicators:true
+		          });
+		          $('.materialboxed').materialbox();
+		          $('.scrollspy').scrollSpy();
+		          $('.pushpin').pushpin();
+		      });
+		</script>
+	</div>
 </body>
-
 </html>
